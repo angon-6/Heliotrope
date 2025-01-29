@@ -1,0 +1,74 @@
+/* Style général pour les boutons */
+._2Lu3d-5qLmW4i19ysTt2jT._2UyOBeiSdBayaFdRa39N2O {
+  /* Taille ajustée */
+  width: 130px; /* Largeur réduite */
+  height: 35px; /* Hauteur constante */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Espacement entre l'icône et le texte */
+  border: 1px solid #5B2E82;
+
+  /* Couleurs et dégradé */
+  background: linear-gradient(to bottom, #8A46C6 50%, #4B2164 50%);
+  color: white; /* Texte en blanc */
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+
+  /* Drop shadow pastel */
+  box-shadow: 
+    0 1px 2px rgba(138, 70, 198, 0.6),
+    0 -1px 2px rgba(138, 70, 198, 0.4),
+    1px 0 2px rgba(138, 70, 198, 0.5),
+    -1px 0 2px rgba(138, 70, 198, 0.5);
+
+  /* Suppression des marges et des espacements */
+  margin: 0; /* Aucune marge */
+  padding: 0; /* Aucun padding */
+  border-spacing: 0; /* Suppression de l'espacement éventuel */
+}
+
+/* Suppression des espacements entre les boutons */
+._2Lu3d-5qLmW4i19ysTt2jT._2UyOBeiSdBayaFdRa39N2O + ._2Lu3d-5qLmW4i19ysTt2jT._2UyOBeiSdBayaFdRa39N2O {
+  margin-left: -1px; /* Fusionner les bordures */
+}
+
+/* Coins arrondis ajustés */
+._2Lu3d-5qLmW4i19ysTt2jT._2UyOBeiSdBayaFdRa39N2O:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+._2Lu3d-5qLmW4i19ysTt2jT._2UyOBeiSdBayaFdRa39N2O:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* Effet au survol */
+._2Lu3d-5qLmW4i19ysTt2jT._2UyOBeiSdBayaFdRa39N2O:hover {
+  background: linear-gradient(to bottom, #9B5CD0 50%, #5D2B8F 50%);
+  box-shadow: 
+    0 1px 2px rgba(138, 70, 198, 0.6),
+    0 -1px 2px rgba(138, 70, 198, 0.4),
+    1px 0 2px rgba(138, 70, 198, 0.5),
+    -1px 0 2px rgba(138, 70, 198, 0.5);
+}
+
+/* Effet actif */
+._2Lu3d-5qLmW4i19ysTt2jT._2UyOBeiSdBayaFdRa39N2O:active {
+  background: linear-gradient(to bottom, #7D4BB0 50%, #4B2164 50%);
+  box-shadow: 
+    0 1px 2px rgba(138, 70, 198, 0.7),
+    0 -1px 2px rgba(138, 70, 198, 0.6),
+    1px 0 2px rgba(138, 70, 198, 0.7),
+    -1px 0 2px rgba(138, 70, 198, 0.7);
+}
+
+/* Icônes dans les boutons */
+._2Lu3d-5qLmW4i19ysTt2jT._2UyOBeiSdBayaFdRa39N2O img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(1) contrast(1); /* Conserver des icônes nettes */
+}

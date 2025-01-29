@@ -1,0 +1,69 @@
+/* Styles pour les boutons de l'en-tête */
+
+/* Groupe 1 : Magasin, Bibliothèque, Communauté, Pseudonyme du joueur, Console */
+._2Lu3d-5qLmW4i19ysTt2jT._7AlhCx3XGzBeIrQaCneUD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #5B2E82;
+  background: linear-gradient(to bottom, #8A46C6 50%, #4B2164 50%);
+  box-shadow: 0 1px 2px rgba(138, 70, 198, 0.6);
+  color: white !important;
+  padding: 5px 12px;
+  margin: 2px; /* Correction alignement */
+}
+
+._2Lu3d-5qLmW4i19ysTt2jT._7AlhCx3XGzBeIrQaCneUD:hover {
+  background: linear-gradient(to bottom, #9B5CD0 50%, #5D2B8F 50%);
+}
+
+._2Lu3d-5qLmW4i19ysTt2jT._7AlhCx3XGzBeIrQaCneUD:active {
+  box-shadow: inset 0 1px 2px rgba(138, 70, 198, 0.6);
+}
+
+._2Lu3d-5qLmW4i19ysTt2jT._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ {
+  color: white !important;
+}
+
+/* Groupe 2 : Mode Big Picture, Annonces, Notifications, Pseudonyme du joueur */
+.tool-tip-source.Focusable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tool-tip-source.Focusable > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #5B2E82;
+  background: linear-gradient(to bottom, #8A46C6 50%, #4B2164 50%);
+  box-shadow: 0 1px 2px rgba(138, 70, 198, 0.6);
+  color: white !important;
+  padding: 5px 12px;
+  margin: 2px; /* Correction alignement */
+  height: 18px; /* Ajustement de la hauteur */
+  min-height: 18px; /* Correction appliquée à tous les éléments */
+}
+
+.tool-tip-source.Focusable > div:hover {
+  background: linear-gradient(to bottom, #9B5CD0 50%, #5D2B8F 50%);
+}
+
+.tool-tip-source.Focusable > div:active {
+  box-shadow: inset 0 1px 2px rgba(138, 70, 198, 0.6);
+}
+
+/* Ajustement de l'icône Big Picture */
+._3LKQ3S_yqrebeNLF6aeiog {
+  position: relative;
+}

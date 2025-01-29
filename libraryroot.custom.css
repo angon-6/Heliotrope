@@ -1,0 +1,10 @@
+@import url(theme/app/footer-buttons.css);
+@import url(theme/app/title-buttons.css);
+@import url(theme/app/header-buttons.css);
+@import url(theme/app/client.css);
+
+@import url(theme/games/game.css);
+@import url(theme/games/collection.css);
+
+@import url(config.css);
+@import url(webkit.css);
